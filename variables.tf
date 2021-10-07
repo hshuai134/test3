@@ -1,3 +1,3 @@
 variable "bucket" {
-  default = "lilecong128478"
+  default = "hshuai7154"
 }
