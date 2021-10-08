@@ -1,4 +1,4 @@
-resource "alicloud_vpc" "vpc" {
-  vpc_name   = "tf_test_foo71642"
-  cidr_block = "172.16.0.0/12"
+resource "alicloud_oss_bucket" "bucket-acl" {
+  bucket = "bucket-test-hshuai134"
+  acl    = "private"
 }
