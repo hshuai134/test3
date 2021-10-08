@@ -1,7 +1,4 @@
-provider "alicloud" {
-  
-}
 resource "alicloud_oss_bucket" "bucket-acl" {
-  bucket = "${var.bucket}"
+  bucket = "bucket-170309-acl"
   acl    = "private"
 }
