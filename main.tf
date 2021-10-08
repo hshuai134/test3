@@ -1,6 +1,4 @@
-resource "alicloud_api_gateway_vpc_access" "foo" {
-  name        = "ApiGatewayVpc123"
-  vpc_id      = "vpc-awkcj192ka9zalz"
-  instance_id = "i-kai2ks92kzkw92ka"
-  port        = 8080
+resource "alicloud_vpc" "vpc" {
+  vpc_name   = "tf_test_foo"
+  cidr_block = "172.16.0.0/12"
 }
